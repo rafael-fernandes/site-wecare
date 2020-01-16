@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/Header/Header.js';
+import Header from '../components/Header.js';
 import Banner from './../components/Banner.js';
 
 // import { Container } from './styles';

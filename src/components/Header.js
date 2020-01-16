@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
-import logo from './../../images/logo-wecare.svg';
+import logo from './../images/logo-wecare.svg';
 
 const Header = () => {
   return (
     <>
-      <div className="Header">
+      <div className="Header fixed-top">
         <Navbar expand="lg" className="Header-navbar">
           <Container>
             <Navbar.Brand href="#home">
@@ -19,7 +19,7 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
-                <Button href="/demo">Agende um demo</Button>
+                <Button href="/demo" variant="success">Agende um demo</Button>
               </Nav>
             </Navbar.Collapse>
           </Container>
