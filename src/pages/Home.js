@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../components/Header/Header.js';
 import Banner from './../components/Banner.js';
 
 // import { Container } from './styles';
@@ -6,6 +7,7 @@ import Banner from './../components/Banner.js';
 const Home = () => {
   return(
     <>
+      <Header />
       <Banner />
     </>
   )
