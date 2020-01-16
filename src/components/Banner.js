@@ -17,7 +17,7 @@ const Banner = () => {
 
               <div className="Banner__description">
                 Soluções em gamificação e incentivos corporativos<br />
-                flexíveis para apoiar nossos clientes em seus desafios<br />
+                flexíveis para apoiar a sua empresa em seus desafios<br />
                 de pessoas e negócios.
               </div>
 
