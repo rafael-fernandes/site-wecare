@@ -60,7 +60,7 @@ const Ebook = () => {
             </Form.Group>
 
             <Button type="submit" variant="warning" className="Ebook__submit">
-              Baixar e-book
+              Quero receber
             </Button>
           </Form>
           {lead ? (
