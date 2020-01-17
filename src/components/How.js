@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import HowStep from './HowStep.js';
+import React from "react";
+import { Container } from "react-bootstrap";
+import HowStep from "./HowStep.js";
 import step1 from "./../images/step-1.svg";
 import step2 from "./../images/step-2.svg";
 import step3 from "./../images/step-3.svg";
@@ -28,9 +28,11 @@ const How = () => {
       text:
         "Os colaboradores trocam seus pontos por produtos e serviços disponíveis em nosso marketplace."
     }
-  ]
+  ];
 
-  const listHowSteps = steps.map((step, index) => <HowStep key={'hs' + index} icon={step.icon} text={step.text} />)
+  const listHowSteps = steps.map((step, index) => (
+    <HowStep key={"hs" + index} icon={step.icon} text={step.text} />
+  ));
 
   return (
     <>
@@ -46,9 +48,7 @@ const How = () => {
           </div>
 
           <div className="How__steps d-flex justify-content-center">
-            <div className="d-flex">
-              {listHowSteps}
-            </div>
+            <div className="d-flex">{listHowSteps}</div>
 
             <div className="How__tip">
               Fazemos toda a gestão desde a disponibilização dos pontos à
@@ -60,6 +60,6 @@ const How = () => {
       </div>
     </>
   );
-}
+};
 
 export default How;

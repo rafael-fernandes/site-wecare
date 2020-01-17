@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const HowStep = ({ icon, text }) => {
   return (
@@ -12,6 +12,6 @@ const HowStep = ({ icon, text }) => {
       </div>
     </>
   );
-}
+};
 
 export default HowStep;

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container, Navbar, Nav, Button } from 'react-bootstrap';
-import logo from './../images/logo-wecare.svg';
+import React from "react";
+import { Container, Navbar, Nav, Button } from "react-bootstrap";
+import logo from "./../images/logo-wecare.svg";
 
 const Header = () => {
   return (
@@ -19,7 +19,9 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
-                <Button href="/demo" variant="success">Agende um demo</Button>
+                <Button href="/demo" variant="success">
+                  Agende um demo
+                </Button>
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -27,6 +29,6 @@ const Header = () => {
       </div>
     </>
   );
-}
+};
 
 export default Header;
