@@ -44,7 +44,7 @@ const Footer = () => {
 
               <ul className="Links__list">
                 <li>
-                  <Link to="demo" className="Links__link">
+                  <Link to="contato" className="Links__link">
                     Agende um demo
                   </Link>
                 </li>

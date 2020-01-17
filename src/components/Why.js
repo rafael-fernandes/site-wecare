@@ -37,7 +37,7 @@ const Why = () => {
 
               <div className="Why__source">Fonte: Gallup</div>
 
-              <Link to="demo">
+              <Link to="contato">
                 <Button variant="warning" className="Why__cta">
                   Quero agendar um demo
                 </Button>

@@ -56,7 +56,7 @@ const Solution = () => {
 
           <div className="Solution__steps">{listSolutionSteps}</div>
 
-          <Link to="demo">
+          <Link to="contato">
             <Button variant="outline-success" className="Solution__cta">
               Quero saber mais
             </Button>

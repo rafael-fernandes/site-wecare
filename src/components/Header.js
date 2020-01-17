@@ -26,7 +26,7 @@ const Header = () => {
                   <Nav.Link href="/contato">Contato</Nav.Link>
                 </Link>
 
-                <Link to="demo">
+                <Link to="contato">
                   <Button variant="success" className="ml-4">
                     Agende um demo
                   </Button>

@@ -19,7 +19,6 @@ function App() {
             <ScrollToTop path="/">
               <Home path="/" />
               <Contact path="contato" />
-              <Demo path="demo" />
             </ScrollToTop>
           </Router>
         </div>

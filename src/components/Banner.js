@@ -23,7 +23,7 @@ const Banner = () => {
                 <div className="d-none d-md-block"></div> de pessoas e negócios.
               </div>
 
-              <Link to="demo">
+              <Link to="contato">
                 <Button variant="outline-success" className="Banner__cta">
                   Quero saber mais
                 </Button>

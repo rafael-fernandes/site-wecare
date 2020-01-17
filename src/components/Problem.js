@@ -52,7 +52,7 @@ const Problem = () => {
 
         <div className="Problem__bottom">
           <Container className="text-center">
-            <Link to="demo">
+            <Link to="contato">
               <Button variant="warning">Quero agendar um demo</Button>
             </Link>
           </Container>
