@@ -12,16 +12,15 @@ const Banner = () => {
             <div className="Banner__wrapper">
               <h1 className="Banner__title">
                 Flexibilidade sem complexidade
-                <br />
-                para engajar o seu time
+                <div className="d-none d-md-block"></div> para engajar o seu
+                time
               </h1>
 
               <div className="Banner__description">
                 Soluções em gamificação e incentivos corporativos
-                <br />
-                flexíveis para apoiar a sua empresa em seus desafios
-                <br />
-                de pessoas e negócios.
+                <div className="d-none d-md-block"></div> flexíveis para apoiar
+                a sua empresa em seus desafios
+                <div className="d-none d-md-block"></div> de pessoas e negócios.
               </div>
 
               <Link to="demo">

@@ -39,8 +39,8 @@ const Problem = () => {
                 <br />
                 <br />
                 Aqui na WeCare desenvolvemos soluções
-                <br />
-                para ajudar a sua empresa a:
+                <div className="d-none d-md-block"></div> para ajudar a sua
+                empresa a:
               </div>
             </div>
 

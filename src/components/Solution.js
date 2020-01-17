@@ -14,8 +14,8 @@ const Solution = () => {
       icon: step1,
       text: [
         "Entendemos a estratégia, cultura",
-        <br />,
-        "e desafios da empresa"
+        <div className='d-none d-md-block'></div>,
+        " e desafios da empresa"
       ]
     },
     {
@@ -23,8 +23,8 @@ const Solution = () => {
       icon: step2,
       text: [
         "Unimos conhecimento estratégico em RH",
-        <br />,
-        "e gamificação para criar soluções."
+        <div className='d-none d-md-block'></div>,
+        " e gamificação para criar soluções."
       ]
     },
     {
@@ -32,10 +32,10 @@ const Solution = () => {
       icon: step3,
       text: [
         "Entregamos um catálogo de ofertas",
-        <br />,
-        "alinhado ao perfil e necessidades",
-        <br />,
-        "do público."
+        <div className='d-none d-md-block'></div>,
+        " alinhado ao perfil e necessidades",
+        <div className='d-none d-md-block'></div>,
+        " do público."
       ]
     }
   ];

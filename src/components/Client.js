@@ -1,13 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const Client = ({ image }) => {
   return (
     <>
-      <div className="Client">
-        <img src={image} alt="Client"/>
-      </div>
+      <img src={image} alt="Client" className="Client" />
     </>
-  )
-}
+  );
+};
 
 export default Client;

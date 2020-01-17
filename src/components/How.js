@@ -40,7 +40,8 @@ const How = () => {
         <Container>
           <h2 className="How__title">
             Quem disse que engajar e dar flexibilidade
-            <br /> para o time tem que dar trabalho?
+            <div className="d-none d-md-block"></div> para o time tem que dar
+            trabalho?
           </h2>
 
           <div className="How__subtitle">
@@ -52,8 +53,8 @@ const How = () => {
 
             <div className="How__tip">
               Fazemos toda a gestão desde a disponibilização dos pontos à
-              <br />
-              empresa até a entrega dos itens resgatados aos colaboradores.
+              <div className="d-none d-md-block"></div> empresa até a entrega
+              dos itens resgatados aos colaboradores.
             </div>
           </div>
         </Container>
