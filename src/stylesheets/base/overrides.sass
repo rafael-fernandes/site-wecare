@@ -20,3 +20,14 @@
   &:hover
     color: $color-white
     background-color: $color-green
+
+.form-group
+  padding-bottom: 1em
+
+.form-control
+  &:focus
+    border: 1px solid $color-green
+    box-shadow: none
+
+  &:invalid:focus, &:valid:focus
+    box-shadow: none !important
