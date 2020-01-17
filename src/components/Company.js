@@ -8,7 +8,6 @@ import location from "./../images/map-marker.svg";
 const Company = () => {
   const company_infos = [
     { icon: email, content: "contato@wecarecorp.com.br" },
-    { icon: cellphone, content: "+55 (62) 98209 3231" },
     {
       icon: location,
       content:

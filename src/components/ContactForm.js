@@ -24,7 +24,7 @@ const ContactForm = () => {
           </Form.Group>
 
           <Form.Group>
-            <Form.Label>Telefone</Form.Label>
+            <Form.Label>Mensagem</Form.Label>
             <Form.Control as="textarea" rows="5" name="mensagem" required></Form.Control>
           </Form.Group>
 

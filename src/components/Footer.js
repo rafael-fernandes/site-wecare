@@ -91,7 +91,7 @@ const Footer = () => {
                   </a>
                   <span>&emsp;</span>
                   <a
-                    href="http://app.wecarecorp.com.br"
+                    href="https://www.linkedin.com/company/we.care/"
                     className="Links__link"
                     target="_blank"
                   >
