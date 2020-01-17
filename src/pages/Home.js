@@ -6,6 +6,7 @@ import How from './../components/How.js';
 import Campaigns from '../components/Campaigns.js';
 import Why from '../components/Why';
 import Clients from  '../components/Clients.js';
+import Ebook from '../components/Ebook.js';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Campaigns />
       <Why />
       <Clients />
+      <Ebook />
     </>
   )
 };
