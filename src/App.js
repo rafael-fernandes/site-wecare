@@ -2,7 +2,6 @@ import React from "react";
 import ScrollToTop from "./components/ScrollToTop.js";
 import Home from "./pages/Home.js";
 import Contact from "./pages/Contact.js";
-import Demo from "./pages/Demo.js";
 import { Router } from "@reach/router";
 import Header from "./components/Header.js";
 import Footer from "./components/Footer.js";
