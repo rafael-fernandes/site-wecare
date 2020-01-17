@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
+import { Link } from "@reach/router";
 import SolutionStep from "./SolutionStep.js";
 import step1 from "./../images/step-1.svg";
 import step2 from "./../images/step-2.svg";
@@ -55,13 +56,11 @@ const Solution = () => {
 
           <div className="Solution__steps">{listSolutionSteps}</div>
 
-          <Button
-            href="/demo"
-            variant="outline-success"
-            className="Solution__cta"
-          >
-            Quero saber mais
-          </Button>
+          <Link to="demo">
+            <Button variant="outline-success" className="Solution__cta">
+              Quero saber mais
+            </Button>
+          </Link>
         </Container>
 
         <img

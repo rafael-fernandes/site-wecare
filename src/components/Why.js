@@ -1,7 +1,8 @@
 import React from "react";
 import Statistic from "./Statistic.js";
 import { Container, Button } from "react-bootstrap";
-import whyBottom from './../images/why-bottom.svg';
+import { Link } from "@reach/router";
+import whyBottom from "./../images/why-bottom.svg";
 
 const Why = () => {
   const statistics = [
@@ -36,7 +37,11 @@ const Why = () => {
 
               <div className="Why__source">Fonte: Gallup</div>
 
-              <Button href="/demo" variant="warning" className="Why__cta">Quero agendar um demo</Button>
+              <Link to="demo">
+                <Button variant="warning" className="Why__cta">
+                  Quero agendar um demo
+                </Button>
+              </Link>
             </Container>
           </div>
         </div>

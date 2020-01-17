@@ -1,6 +1,7 @@
 import React from "react";
 import ProblemTopic from "./ProblemTopic.js";
 import { Container, Button } from "react-bootstrap";
+import { Link } from "@reach/router";
 
 const Problem = () => {
   const topics = [
@@ -51,9 +52,9 @@ const Problem = () => {
 
         <div className="Problem__bottom">
           <Container className="text-center">
-            <Button variant="warning" href="/demo">
-              Quero agendar um demo
-            </Button>
+            <Link to="demo">
+              <Button variant="warning">Quero agendar um demo</Button>
+            </Link>
           </Container>
         </div>
       </div>

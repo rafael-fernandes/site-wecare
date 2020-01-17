@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Button } from "react-bootstrap";
+import { Link } from "@reach/router";
 import illustration from "../images/ilustracao-banner.svg";
 
 const Banner = () => {
@@ -23,13 +24,11 @@ const Banner = () => {
                 de pessoas e negócios.
               </div>
 
-              <Button
-                href="/demo"
-                variant="outline-success"
-                className="Banner__cta"
-              >
-                Quero saber mais
-              </Button>
+              <Link to="demo">
+                <Button variant="outline-success" className="Banner__cta">
+                  Quero saber mais
+                </Button>
+              </Link>
             </div>
 
             <img
