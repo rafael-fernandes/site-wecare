@@ -22,8 +22,12 @@ const Header = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ml-auto">
+                <Link to="contato">
+                  <Nav.Link href="/contato">Contato</Nav.Link>
+                </Link>
+
                 <Link to="demo">
-                  <Button variant="success">
+                  <Button variant="success" className="ml-4">
                     Agende um demo
                   </Button>
                 </Link>
