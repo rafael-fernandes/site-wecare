@@ -1,10 +1,16 @@
+/* Ambience */
 @import './stylesheets/ambience/colors.sass';
 @import './stylesheets/ambience/fonts.sass';
 @import './stylesheets/ambience/typography.sass';
+
+/* Base */
 @import './stylesheets/base/unclassed.sass';
 @import './stylesheets/base/overrides.sass';
-@import './stylesheets/components/Header.sass';
+
+/* Components */
 @import './stylesheets/components/Banner.sass';
+@import './stylesheets/components/Header.sass';
+@import './stylesheets/components/How.sass';
 @import './stylesheets/components/Problem.sass';
 @import './stylesheets/components/Solution.sass';
 

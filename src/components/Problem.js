@@ -11,7 +11,7 @@ const Problem = () => {
     "Se diferenciar como marca empregadora"
   ]
 
-  const listTopics = topics.map((topic, index) => <ProblemTopic key={index} name={topic} />)
+  const listTopics = topics.map((topic, index) => <ProblemTopic key={'pt' + index} name={topic} />)
 
   return (
     <>

@@ -9,6 +9,7 @@ import plataforma from './../images/plataforma.png';
 const Solution = () => {
   const steps = [
     {
+      id: 'st1',
       icon: step1,
       text: [
         "Entendemos a estratégia, cultura",
@@ -17,6 +18,7 @@ const Solution = () => {
       ]
     },
     {
+      id: 'st2',
       icon: step2,
       text: [
         "Unimos conhecimento estratégico em RH",
@@ -25,6 +27,7 @@ const Solution = () => {
       ]
     },
     {
+      id: 'st3',
       icon: step3,
       text: [
         "Entregamos um catálogo de ofertas",
@@ -36,7 +39,7 @@ const Solution = () => {
     }
   ]
 
-  const listSolutionSteps = steps.map((step, index) => <SolutionStep key={index} icon={step.icon} text={step.text} />)
+  const listSolutionSteps = steps.map(step => <SolutionStep key={step.id} icon={step.icon} text={step.text} />)
 
   return (
     <>
